@@ -1,5 +1,8 @@
 # Immersion
 
+![image](https://immersion-bucket-bucket.s3.us-east-2.amazonaws.com/torus.png)
+![image](https://immersion-bucket-bucket.s3.us-east-2.amazonaws.com/spheres3.png)
+
 Immersion is an immersive 3D start page, built on three.js.
 
 ## Installation
@@ -11,7 +14,7 @@ Clone or download the html file [here](https://github.com/travistrotto/Immersion
 1. Edit Immersion to your liking using your preferred text editor of choice.
 2. Host your the html page on githubpages or something similiar
 
-```javaScript
+```javascript
 <script type="module">
         </> Bonus Light Material included: </>
         
@@ -19,7 +22,7 @@ Clone or download the html file [here](https://github.com/travistrotto/Immersion
          *  Light Material
          *  - Uncomment next two lines
          *  - Comment out the cool material to use
-         *  - (optional: swap lines 265 and 266) [lighterColor]
+         *  - (optional: swap lines 285 and 286) [lighterColor]
          */
         // const material = new THREE.MeshBasicMaterial({ color: lighterColor })
         // material.opacity = 0.1
