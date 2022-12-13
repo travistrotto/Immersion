@@ -12,7 +12,8 @@ Clone or download the html file [here](https://github.com/travistrotto/Immersion
 [] Host your the html page on githubpages or something similiar
 
 ```javaScript
-import foobar
+<script type="module">
+        import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/build/three.module.js';
 
         /*  
          *  Light Material
