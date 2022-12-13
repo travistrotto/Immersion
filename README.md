@@ -8,13 +8,13 @@ Clone or download the html file [here](https://github.com/travistrotto/Immersion
 
 ## Usage
 
-[] Edit Immersion to your liking using your preferred text editor of choice.
-[] Host your the html page on githubpages or something similiar
+1. Edit Immersion to your liking using your preferred text editor of choice.
+2. Host your the html page on githubpages or something similiar
 
 ```javaScript
 <script type="module">
-        import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/build/three.module.js';
-
+        </> Bonus Light Material included: </>
+        
         /*  
          *  Light Material
          *  - Uncomment next two lines
@@ -26,6 +26,7 @@ Clone or download the html file [here](https://github.com/travistrotto/Immersion
 
         /*  
          *  Cool Material
+         *  - Comment all three lines to use Light Material
          */
         const material = new THREE.MeshNormalMaterial()
         material.flatShading = true
